@@ -1,0 +1,33 @@
+.todolist-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.action-buttons button {
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 12px;
+    box-shadow: none;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.action-buttons button:hover {
+    opacity: 0.8;
+}
+
+.edit-btn {
+    background: #84c6f5;
+}
+
+.remove-btn {
+    background: #c34343;
+}

@@ -1,0 +1,50 @@
+*:focus {
+    outline: 0;
+}
+
+.todo-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background: #f0f0f0;
+    box-shadow: 0 1px 2px #ccc;
+}
+
+.todo-wrapper h3 {
+    margin: 0;
+    padding: 20px;
+}
+
+.form-wrapper {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    box-shadow: none;
+}
+
+.btn-primary {
+    box-shadow: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #74992e;
+    border: 0;
+    margin-left: 10px;
+    min-width: 100px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #516b20;
+}
